@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<title>TEAMwISE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>
+                    TEAM
+                    <span style='font-size:20px; color: rgb(30, 180, 10);'>&#3214;</span>
+                    ISE</b>
+            </a>
+            <span style='font-size:20px;'>&#127760;</span>
+
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <span style='font-size:20px;'>&#128036;</span>
+                <a href="#home" class="w3-bar-item w3-button">About</a>
+                <a href="#survey" class="w3-bar-item w3-button">Survey</a>
+                <a href="#features" class="w3-bar-item w3-button">Features</a>
+                <a href="#contact" class="w3-bar-item w3-button">Installation</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="padding: 50px 0px; max-width:1300px;" id="topPic">
+        <img class="w3-image w3-padding" src="images/teamwise3.png" alt="birdfly" width="1500" height="1000">
+
+    </header>
+    <div class="w3-display-container w3-content w3-wide" id="home">
+        <!-- style="padding:50px 0px" -->
+        <h2>About TEAM<span style='font-size:20px; color: rgb(30, 180, 10);'>&#3214;</span>ISE</h2>
+        <p class="w3-large">TEAMwISE is an abbreviation of
+            ‘Tool for the Exploration and Analysis of Movement
+            data Within Immersive Synchronised Environments’.
+            We aim to build a tool that is an open source, web-based stand-alone application. The current
+            implementation is built based on the Cesium platform which is an open-source JavaScript library for 3D
+            globes and maps.
+        </p>
+        <p class="w3-large">Currently, TEAMwISE supports KML formal, to know more about the tool, please go to our
+            <a class="w3-text-teal" href="">
+                user guide</a>!</p>
+    </div>
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1600px">
+        <!-- 1564px -->
+
+        <!-- Survey Section -->
+        <div class="w3-container w3-padding-32" id="survey">
+            <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                Survey</h2>
+        </div>
+
+        <h3 class="w3-center">
+            Please participate our online
+            <a href="https://www.soscisurvey.de/TEAMwISEwebpage/" titel="SUS" target="_blank"
+                class="w3-hover-text-green"> <i style='font-size:24px; color: blue;' class='far'>&#xf044;</i>
+                survey</a>
+            to help us for the development, thank you in advance! (&#9685;&#8255;&#9685;&#10047;)
+
+        </h3>
+        <p>*The server is provided by SoSci Survey GmbH.</p>
+
+        <!-- https://www.surveymonkey.de/r/8N353Y9 -->
+
+
+
+        <!-- Features Section -->
+        <div class="w3-container w3-padding-32" id="features">
+            <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Features</h2>
+
+
+            <!--<div class="w3-row-padding w3-grayscale"> -->
+            <div class="w3-row-padding">
+
+                <div class="w3-col l4 m6 w3-margin-bottom w3-round-medium w3-border">
+                    <a target="_blank" href="subPages/SimpleVisuo.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/teamwise3.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Movement Data</h3>
+                        <p class="w3-opacity">Visualisation</p>
+                    </a>
+
+                    <p class="w3-margin">TEAMwISE can stream movement data on terrain or
+                        imagery, so you can observe your collected
+                        data with realistic detial.</p>
+
+                </div>
+
+                <div class=" w3-col l4 m6 w3-margin-bottom w3-round-medium w3-border">
+                    <a target="_blank" href="subPages/3dTiling.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/zebra.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>3D Tiling</h3>
+                        <p class="w3-opacity">Visualisation</p>
+                    </a>
+
+                    <p class="w3-margin">3D Tiles can be clamped to terrain, and stream of geospatial data as the
+                        supply.
+                        Points, polylines, and polygons can be added on data visualisation.
+                    </p>
+
+                </div>
+
+
+
+                <div class=" w3-col l4 m6 w3-margin-bottom w3-round-medium w3-border">
+                    <a target="_blank" href="subPages/MultiSyncronisation.html"
+                        class="w3-block w3-button w3-round-medium">
+                        <img src="images/Synchro3.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Multiple Device Display </h3>
+                        <p class="w3-opacity">Syncronisation</p>
+                    </a>
+
+                    <p class="w3-margin"> TEAMwISE allows multiple researchers to work on the same
+                        data set and dynamically work together, or to visualise different aspects of this data
+                        set.</p>
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+                <div class="w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/Stereoscopic3D.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/CesiumVR.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Stereoscopic 3D</h3>
+                        <p class="w3-opacity">Visualisation</p>
+                    </a>
+
+                    <p class="w3-margin">TEAMwISE can provide stereoscopic 3D visualisation
+                        on large a display or a mobile device.
+                    </p>
+
+                </div>
+
+
+                <div class=" w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/Leader-Follower.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/LF.png" alt="Picture Heree" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Leader-Follower Analysis</h3>
+                        <p class="w3-opacity">Analysis</p>
+                    </a>
+
+                    <p class="w3-margin">Leader-follower is one of the features we implimented for collebrative animal
+                        behavor.
+
+                    </p>
+
+                </div>
+
+                <div class=" w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/DataVisualisation.html"
+                        class="w3-block w3-button w3-round-medium">
+                        <img src="images/griffon_14.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Data Analysis <i class="material-icons" style="color:blue">multiline_chart</i></h3>
+                        <p class="w3-opacity">Visualisation</p>
+                    </a>
+                    <p class="w3-margin">Data analysis visualisation, such as line chart, bar chart, can be showed while
+                        the
+                        researchs are observing the data movement.</p>
+                    <!-- can't put text inside link tag, it would not should correctly -->
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+                <div class="w3-card w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/GamePad.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/LF.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Game Pad Control <i class="material-icons" style="color:blue">videogame_asset</i></h3>
+                        <p class="w3-opacity">IO</p>
+                    </a>
+
+                    <p class="w3-margin">Using game pad to interact with and steer the navigation is one of our ideas to
+                        provide better
+                        intuitive human-computer interface.
+                    </p>
+
+                </div>
+
+                <div class="w3-card w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/geographic.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/weather.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Geographic Data </h3>
+                        <p class="w3-opacity">Visualisation</p>
+                    </a>
+
+                    <p class="w3-margin">Cesium can be freely combine other sources, such as geographic data. Give
+                        researchers'
+                        flexibility of
+                        .....
+                    </p>
+
+                </div>
+
+                <div class="w3-card w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/camSetting.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/vidCam.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3><button style="font-size:24px">Camera Settings <i class="material-icons" style="color:blue">
+                                    videogame_asset</i></button></h3>
+                        <p class="w3-opacity">Visualisation</p>
+                    </a>
+
+                    <p class="w3-margin">TEAMwISE provides camera settings.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+            <div class="w3-card w3-col l4 m6 w3-margin-bottom w3-round-medium">
+                    <a target="_blank" href="subPages/MovebankLoading.html" class="w3-block w3-button w3-round-medium">
+                        <img src="images/MoveBank.png" alt="Picture Here" class="w3-round-medium w3-margin-top"
+                            style="width:100%">
+                        <h3>Movebank Data <i class="material-icons" style="color:blue">cloud_download</i></h3>
+
+                        <p class="w3-opacity">Data Loading</p>
+                    </a>
+
+                    <p class="w3-margin">Movebank data can be loaded into TEAMwISE directly, that means you can use Movebank
+                        as your cloud data storage and have flexibility for your data storage.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- Data Sample Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Sample Data and Data Format Example</h3>
+        </div>
+
+        <div class="w3-row-padding  w3-grayscale">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Step by step installation guide</div>
+                    <img src="images/MoveBank.png" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Movebank Data Loading</div>
+                    <img src="images/MoveBank.png" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Multi Device Syncronisation</div>
+                    <img src="images/MoveBank.png" alt="House" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Data Analysis Visualisation</div>
+                    <img src="images/MoveBank.png" alt="House" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Data Analysis Visualisation</div>
+                    <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Game Pad Control</div>
+                    <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Leader-Follower Analysis</div>
+                    <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Extensibility</div>
+                    <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Please give us your feedback.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- Image of location/map -->
+    <div class="w3-container ">
+        <img src="images/group_resized.png" class="w3-image" style="width:100%">
+    </div>
+
+    <!-- End page content -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+</body>
+
+</html>
